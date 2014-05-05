@@ -1,5 +1,5 @@
 
-file_object = open('67.txt', 'r')
+file_object = open('067.txt', 'r')
 triangle = file_object.readlines()
 
 row = len(triangle)

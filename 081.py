@@ -1,4 +1,4 @@
-file_object = open('81.txt', 'r')
+file_object = open('081.txt', 'r')
 triangle = file_object.readlines()
 
 row = len(triangle)
