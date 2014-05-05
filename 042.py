@@ -22,7 +22,6 @@ for word in words:
     value = get_value(word)
     if is_traingle(value):
         result += 1
-        print(word)
 
 print(result)
 
