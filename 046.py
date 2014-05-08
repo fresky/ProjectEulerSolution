@@ -3,7 +3,9 @@ import math
 primes = [3,5,7]
 
 def is_prime(num):
-    for i in range(2, int(math.sqrt(num))+1):
+    for i in primes:
+        if i > int(math.sqrt(num)):
+            break
         if num % i == 0:
             return False
     return True
