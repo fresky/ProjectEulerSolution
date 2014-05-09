@@ -1,8 +1,3 @@
-import math
-import time
-
-start = time.time()
-
 def is_valid(num, ori_set):
     cur_set = set()
     while num > 0:
